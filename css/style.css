@@ -47,6 +47,8 @@ body {
     flex-grow: 1;
     flex-basis: 0;
     text-align: right;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .menu-item {
@@ -88,7 +90,8 @@ body {
     padding: 90px 0 150px;
 }
 
-.new-title {
+.new-title,
+.color-title {
     margin: 0 0 50px;
     text-transform: uppercase;
     text-align: center;
@@ -115,4 +118,107 @@ body {
     display: block;
 }
 
-/*2-47-28*/
+.images-new {
+    margin-left: 190px;
+}
+
+.color-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.color {
+    padding-bottom: 150px;
+}
+
+.color-item img {
+    margin-bottom: 20px;
+}
+
+.color-item h3 {
+    font-style: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.color-item p {
+    margin: 0;
+}
+
+.contacts-inner {
+    display: flex;
+    background-color: #574B63;
+    color: #fff;
+}
+
+.contacts-form {
+    width: 100%;
+    padding: 140px 93px;
+    text-align: center;
+}
+
+.contact-title {
+    margin: 0 0 60;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 39px;
+    text-align-last: left;
+}
+
+.contacts-input {
+    padding: 10px 0;
+    width: 100%;
+    background-color: #574B63;
+    border: none;
+    border-bottom: 1px solid #fff;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contacts-input::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    opacity: .5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.contacts-form p {
+    opacity: .5;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contacts-form button {
+    border: none;
+    background-color: #fff;
+    color: #490E84;
+    padding: 16px 81px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    line-height: 18px;
+    font-weight: 700px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #0A0A0A;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #717171;
+    padding: 50px 0;
+}
+
+.footer-link {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+/* 3:35:37 */
